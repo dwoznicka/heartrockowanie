@@ -1,0 +1,39 @@
+.topbar {
+  padding: 0;
+  background-color: rgb(9, 8, 10);
+  justify-content: center;
+
+  @media (min-height: 300px) {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+  }
+
+  img {
+    height: 125px;
+    object-fit: contain;
+  }
+}
+
+.homebar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 125px;
+
+  height: 75px;
+  padding: 20px;
+  background-color: rgb(9, 8, 10);
+  color: $brand-white;
+
+  @media(max-width: $screen-xs-max) {
+    text-align: center;
+  }
+
+  .navbar-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    letter-spacing: 1px;
+  }
+}
