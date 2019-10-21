@@ -13,10 +13,11 @@ function smooth_scroll_to(hash, e) {
         e.preventDefault();
         history.pushState(null, null, $(e.target).attr('href'));
       }
-      var offset = $('.home-news-separator').eq(0).height();
       $('html, body').animate({
-        scrollTop: $(hash).offset().top - offset
-      }, 350 );
+        scrollTop: $(hash).offset().top - 250
+      }, 750 );
+      location.hash = hash;
+      $('.navbar-toggler').click();
     }
   }
 }

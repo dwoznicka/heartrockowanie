@@ -1,4 +1,4 @@
-<div class="home-galleryContainer">
+<div class="home-galleryContainer hide">
   <div class="home-gallery">
     {% assign images = site.data.home_images | sort: "position" %}
     {% for image in images %}
@@ -9,8 +9,6 @@
   </div>
   <div class="home-gallery-titleContainer">
     <div class="home-gallery-title--left">
-      <h1>HeartRockowanie</h1>
-      <h2>rockowe Walentynki</h2>
     </div>
     <div class="home-gallery-title--right">
       <span class="home-gallery-subtitle">14.02.2020</span>
