@@ -3,7 +3,7 @@ name: Walentynki na rockowo
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://localhost:4000" # development
 # url: "http://heartrockowanie.pl" # production
-# url: "https://dwoznicka.github.io/heartrockowanie/" # staging
+# url: "https://dwoznicka.github.io/heartrockowanie" # staging
 
 copyright: 2019 © <a href="https://heartrockowanie.pl" class="site-link">HeartRockowanie</a>. Wszelkie prawa zastrzeżone.
 copyright_short: 2019 © <a href="https://heartrockowanie.pl" class="site-link">HeartRockowanie</a>.
