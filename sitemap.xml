@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <loc>http://heartrockowanie.pl</loc>
+    <priority>1.000</priority>
+  </url>
+  
+  <url xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <loc>http://heartrockowanie.pl/</loc>
+    <lastmod>2020-01-14T17:10:55+01:00</lastmod>
+    <changefreq>daily</changefreq>
+  </url>
+  
+</urlset>
